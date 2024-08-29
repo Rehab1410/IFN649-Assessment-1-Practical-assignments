@@ -16,7 +16,7 @@ This project demonstrates an IoT network setup using a Teensy microcontroller, R
 
 ### 1. Teensy Code
 
-The Teensy microcontroller collects data from the sensors and sends it to the Raspberry Pi via Bluetooth. It also listens for commands from the Raspberry Pi to control the buzzer.
+- **`ssessment1-IFN649.ion`**: The Teensy microcontroller collects data from the sensors and sends it to the Raspberry Pi via Bluetooth. It also listens for commands from the Raspberry Pi to control the buzzer.
 
 ### 2. Raspberry Pi Code
 
@@ -37,7 +37,10 @@ An MQTT broker is set up on an AWS EC2 instance using Mosquitto to facilitate co
 - **`ssessment1-IFN649.ino`**: Arduino code for the Teensy microcontroller to handle sensor data collection and actuator control.
 - **`receive_data2.py`**: Merged Python script for the Raspberry Pi to handle data reception, logging, MQTT publishing, and command forwarding.
 - **`sensor_data.csv`**: CSV file where sensor data is logged. This file is automatically created by `receive_data2.py` when data is received from the Teensy.
-- **`publish_data2.py`**: Publishes messages to the MQTT topic.
+- **`publish_data2.py`**: Publishes single messages to the MQTT topic.
+- **`TeensyToLaptop.ino`**: code to send sensor data from Teensy to PC/laptop via serial connection.
+- **`TeensyToLaptopBT.ino`**: code to send sensor data from Teensy to PC/laptop via BT.
+
 
 
 ## How to Run the Project
