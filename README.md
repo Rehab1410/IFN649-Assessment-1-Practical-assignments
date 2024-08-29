@@ -40,8 +40,8 @@ An MQTT broker is set up on an AWS EC2 instance using Mosquitto to facilitate co
 - **`publish_data2.py`**: Publishes single messages to the MQTT topic.
 - **`TeensyToLaptop.ino`**: code to send sensor data from Teensy to PC/laptop via serial connection.
 - **`TeensyToLaptopBT.ino`**: code to send sensor data from Teensy to PC/laptop via BT.
-
-
+- **`Assessment 1 Practical assignments.ppt`**: The presentation of the project.
+- **`Project Configuration.mp4`**: The vedoie show Project Configuration and result. 
 
 ## How to Run the Project
 
